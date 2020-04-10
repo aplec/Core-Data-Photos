@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		5A2A520B244118A100638293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A520A244118A100638293 /* AppDelegate.swift */; };
 		5A2A520D244118A100638293 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A520C244118A100638293 /* SceneDelegate.swift */; };
-		5A2A520F244118A100638293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A520E244118A100638293 /* ViewController.swift */; };
-		5A2A5212244118A100638293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A5210244118A100638293 /* Main.storyboard */; };
-		5A2A5215244118A100638293 /* Core_Data_Photos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A5213244118A100638293 /* Core_Data_Photos.xcdatamodeld */; };
 		5A2A5217244118A200638293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A5216244118A200638293 /* Assets.xcassets */; };
 		5A2A521A244118A200638293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A5218244118A200638293 /* LaunchScreen.storyboard */; };
 		5A2A5225244118A200638293 /* Core_Data_PhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A5224244118A200638293 /* Core_Data_PhotosTests.swift */; };
 		5A2A5230244118A200638293 /* Core_Data_PhotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A522F244118A200638293 /* Core_Data_PhotosUITests.swift */; };
+		5A2A523E24411A1300638293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A523D24411A1300638293 /* Main.storyboard */; };
+		5A2A524024411A4100638293 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A523F24411A4100638293 /* NotesViewController.swift */; };
+		5A2A524224411A4F00638293 /* NoteDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A524124411A4F00638293 /* NoteDetailTableViewController.swift */; };
+		5A2A524424411A5C00638293 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A524324411A5C00638293 /* Note+CoreDataClass.swift */; };
+		5A2A524624411A6700638293 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A524524411A6700638293 /* Note+CoreDataProperties.swift */; };
+		5A2A524C24411FF700638293 /* Core_Data_Photos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A524A24411FF700638293 /* Core_Data_Photos.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +42,6 @@
 		5A2A5207244118A100638293 /* Core Data Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data Photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2A520A244118A100638293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2A520C244118A100638293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A2A520E244118A100638293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A2A5211244118A100638293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5A2A5214244118A100638293 /* Core_Data_Photos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_Photos.xcdatamodel; sourceTree = "<group>"; };
 		5A2A5216244118A200638293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2A5219244118A200638293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2A521B244118A200638293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		5A2A522B244118A200638293 /* Core Data PhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Data PhotosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2A522F244118A200638293 /* Core_Data_PhotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Data_PhotosUITests.swift; sourceTree = "<group>"; };
 		5A2A5231244118A200638293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2A523D24411A1300638293 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5A2A523F24411A4100638293 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		5A2A524124411A4F00638293 /* NoteDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailTableViewController.swift; sourceTree = "<group>"; };
+		5A2A524324411A5C00638293 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5A2A524524411A6700638293 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5A2A524B24411FF700638293 /* Noted.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noted.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +109,15 @@
 			children = (
 				5A2A520A244118A100638293 /* AppDelegate.swift */,
 				5A2A520C244118A100638293 /* SceneDelegate.swift */,
-				5A2A520E244118A100638293 /* ViewController.swift */,
-				5A2A5210244118A100638293 /* Main.storyboard */,
+				5A2A523D24411A1300638293 /* Main.storyboard */,
+				5A2A523F24411A4100638293 /* NotesViewController.swift */,
+				5A2A524124411A4F00638293 /* NoteDetailTableViewController.swift */,
+				5A2A524324411A5C00638293 /* Note+CoreDataClass.swift */,
+				5A2A524524411A6700638293 /* Note+CoreDataProperties.swift */,
 				5A2A5216244118A200638293 /* Assets.xcassets */,
 				5A2A5218244118A200638293 /* LaunchScreen.storyboard */,
 				5A2A521B244118A200638293 /* Info.plist */,
-				5A2A5213244118A100638293 /* Core_Data_Photos.xcdatamodeld */,
+				5A2A524A24411FF700638293 /* Core_Data_Photos.xcdatamodeld */,
 			);
 			path = "Core Data Photos";
 			sourceTree = "<group>";
@@ -235,9 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2A523E24411A1300638293 /* Main.storyboard in Resources */,
 				5A2A521A244118A200638293 /* LaunchScreen.storyboard in Resources */,
 				5A2A5217244118A200638293 /* Assets.xcassets in Resources */,
-				5A2A5212244118A100638293 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2A520F244118A100638293 /* ViewController.swift in Sources */,
+				5A2A524224411A4F00638293 /* NoteDetailTableViewController.swift in Sources */,
+				5A2A524624411A6700638293 /* Note+CoreDataProperties.swift in Sources */,
+				5A2A524024411A4100638293 /* NotesViewController.swift in Sources */,
 				5A2A520B244118A100638293 /* AppDelegate.swift in Sources */,
+				5A2A524C24411FF700638293 /* Core_Data_Photos.xcdatamodeld in Sources */,
+				5A2A524424411A5C00638293 /* Note+CoreDataClass.swift in Sources */,
 				5A2A520D244118A100638293 /* SceneDelegate.swift in Sources */,
-				5A2A5215244118A100638293 /* Core_Data_Photos.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5A2A5210244118A100638293 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A2A5211244118A100638293 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A2A5218244118A200638293 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -590,13 +594,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5A2A5213244118A100638293 /* Core_Data_Photos.xcdatamodeld */ = {
+		5A2A524A24411FF700638293 /* Core_Data_Photos.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5A2A5214244118A100638293 /* Core_Data_Photos.xcdatamodel */,
+				5A2A524B24411FF700638293 /* Noted.xcdatamodel */,
 			);
-			currentVersion = 5A2A5214244118A100638293 /* Core_Data_Photos.xcdatamodel */;
-			path = Core_Data_Photos.xcdatamodeld;
+			currentVersion = 5A2A524B24411FF700638293 /* Noted.xcdatamodel */;
+			name = Core_Data_Photos.xcdatamodeld;
+			path = "../../../../Downloads/Noted-master/Noted/Core_Data_Photos.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
